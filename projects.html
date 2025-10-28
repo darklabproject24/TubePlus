@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Other Projects | Dark Lab Project</title>
+    <meta name="description" content="Explore more projects from Dark Lab">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="page-styles.css">
+    <link rel="icon" type="image/png" href="icon128.png">
+</head>
+<body>
+    <!-- Dark Mode Toggle -->
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+        <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="5"/>
+            <line x1="12" y1="1" x2="12" y2="3"/>
+            <line x1="12" y1="21" x2="12" y2="23"/>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+            <line x1="1" y1="12" x2="3" y2="12"/>
+            <line x1="21" y1="12" x2="23" y2="12"/>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+        </svg>
+        <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+        </svg>
+    </button>
+
+    <!-- Back Button -->
+    <a href="index.html" class="back-button">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M19 12H5M12 19l-7-7 7-7"/>
+        </svg>
+        Back
+    </a>
+
+    <!-- Animated Background -->
+    <div class="background-blur">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <!-- Main Container -->
+    <div class="container page-container">
+        <article class="content-card">
+            <header class="page-header">
+                <div class="icon-badge">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="3" y="3" width="7" height="7"/>
+                        <rect x="14" y="3" width="7" height="7"/>
+                        <rect x="14" y="14" width="7" height="7"/>
+                        <rect x="3" y="14" width="7" height="7"/>
+                    </svg>
+                </div>
+                <h1>Other Projects</h1>
+                <p class="last-updated">Work in Progress</p>
+            </header>
+
+            <div class="content-section">
+                <h2>🚀 Current Projects</h2>
+                <p>Here are some of our other web tools and extensions:</p>
+            </div>
+
+            <!-- Tube+ Card (Featured) -->
+            <div class="project-card featured">
+                <div class="project-badge">Featured</div>
+                <div class="project-header">
+                    <div class="project-icon">
+                        <img src="icon128.png" alt="Tube+ Logo">
+                    </div>
+                    <div class="project-info">
+                        <h3>Tube+</h3>
+                        <p class="project-status">✅ Released</p>
+                    </div>
+                </div>
+                <p class="project-description">
+                    Mini YouTube Player for Chrome. Control your YouTube playback from any tab with a beautiful glassmorphic overlay.
+                </p>
+                <div class="project-tags">
+                    <span class="tag">Chrome Extension</span>
+                    <span class="tag">Privacy</span>
+                    <span class="tag">YouTube</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/darklabproject24/TubePlus" target="_blank" class="project-link">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                        </svg>
+                        GitHub
+                    </a>
+                    <a href="index.html" class="project-link primary">
+                        Learn More →
+                    </a>
+                </div>
+            </div>
+
+            <!-- Coming Soon Section -->
+            <div class="content-section">
+                <h2>🔮 Coming Soon</h2>
+                <p>We're working on more exciting projects! Stay tuned for updates.</p>
+            </div>
+
+            <!-- Placeholder Project Cards -->
+            <div class="project-card coming-soon">
+                <div class="project-header">
+                    <div class="project-icon placeholder">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <div class="project-info">
+                        <h3>Project Name TBA</h3>
+                        <p class="project-status">🔨 In Development</p>
+                    </div>
+                </div>
+                <p class="project-description">
+                    An exciting new tool is in the works. Check back soon for updates!
+                </p>
+                <div class="project-tags">
+                    <span class="tag">Coming Soon</span>
+                </div>
+            </div>
+
+            <div class="project-card coming-soon">
+                <div class="project-header">
+                    <div class="project-icon placeholder">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+                        </svg>
+                    </div>
+                    <div class="project-info">
+                        <h3>Project Name TBA</h3>
+                        <p class="project-status">💡 Planning</p>
+                    </div>
+                </div>
+                <p class="project-description">
+                    We have more ideas brewing in the lab. Follow us on GitHub to stay updated!
+                </p>
+                <div class="project-tags">
+                    <span class="tag">Coming Soon</span>
+                </div>
+            </div>
+
+            <!-- Call to Action -->
+            <div class="content-section highlight-section">
+                <h2>💡 Have an Idea?</h2>
+                <p>We're always looking for ways to improve developer and user experiences. If you have an idea for a tool or extension, we'd love to hear from you!</p>
+                <a href="https://github.com/darklabproject24" target="_blank" class="cta-button">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                    </svg>
+                    Visit Dark Lab on GitHub
+                </a>
+            </div>
+
+            <!-- Newsletter / Updates (Optional) -->
+            <div class="content-section">
+                <h2>📬 Stay Updated</h2>
+                <p>Want to be notified about new projects and updates?</p>
+                <ul>
+                    <li>⭐ Star our repositories on <a href="https://github.com/darklabproject24" target="_blank">GitHub</a></li>
+                    <li>👀 Watch for releases and updates</li>
+                    <li>🐛 Report issues or request features</li>
+                    <li>🤝 Contribute to our open-source projects</li>
+                </ul>
+            </div>
+
+            <!-- Philosophy -->
+            <div class="content-section highlight-section">
+                <h2>🧪 Our Philosophy</h2>
+                <p><strong>Dark Lab Project</strong> is committed to building:</p>
+                <ul class="philosophy-list">
+                    <li>🔒 <strong>Privacy-first tools</strong> that respect user data</li>
+                    <li>🌟 <strong>Minimal interfaces</strong> that enhance user experience</li>
+                    <li>⚡ <strong>Performance-focused</strong> applications that don't bloat</li>
+                    <li>🔓 <strong>Open-source projects</strong> that encourage collaboration</li>
+                    <li>♿ <strong>Accessible software</strong> for everyone</li>
+                </ul>
+            </div>
+        </article>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

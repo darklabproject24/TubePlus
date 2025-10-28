@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About & Installation | Tube+ | Dark Lab Project</title>
+    <meta name="description" content="Learn about Tube+ and how to install it">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="page-styles.css">
+    <link rel="icon" type="image/png" href="icon128.png">
+</head>
+<body>
+    <!-- Dark Mode Toggle -->
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+        <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="5"/>
+            <line x1="12" y1="1" x2="12" y2="3"/>
+            <line x1="12" y1="21" x2="12" y2="23"/>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+            <line x1="1" y1="12" x2="3" y2="12"/>
+            <line x1="21" y1="12" x2="23" y2="12"/>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+        </svg>
+        <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+        </svg>
+    </button>
+
+    <!-- Back Button -->
+    <a href="index.html" class="back-button">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M19 12H5M12 19l-7-7 7-7"/>
+        </svg>
+        Back
+    </a>
+
+    <!-- Animated Background -->
+    <div class="background-blur">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <!-- Main Container -->
+    <div class="container page-container">
+        <article class="content-card">
+            <header class="page-header">
+                <div class="icon-badge">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"/>
+                        <line x1="12" y1="16" x2="12" y2="12"/>
+                        <line x1="12" y1="8" x2="12.01" y2="8"/>
+                    </svg>
+                </div>
+                <h1>About Tube+</h1>
+                <p class="last-updated">mini YouTube overlay Player</p>
+            </header>
+
+            <div class="content-section">
+                <h2>What is Tube+?</h2>
+                <p>Tube+ is a lightweight Chrome extension that brings YouTube controls to every tab in your browser.</p>
+                <p>No more switching between tabs to pause, skip, or control your music.</p>
+            </div>
+
+            <div class="content-section highlight-section">
+                <h2>✨ Key Features</h2>
+                <div class="feature-grid-detailed">
+                    <div class="feature-card">
+                        <div class="feature-card-icon">⌨️</div>
+                        <h3>Keyboard Shortcuts</h3>
+                        <p>Press <kbd>Alt+M</kbd> to show/hide the mini player. Press <kbd>Esc</kbd> to close it instantly.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-card-icon">🎮</div>
+                        <h3>Full Controls</h3>
+                        <p>Play, pause, next, and previous track controls at your fingertips</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-card-icon">📍</div>
+                        <h3>Draggable</h3>
+                        <p>Position the overlay anywhere on your screen - it remembers your preference</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-card-icon">📜</div>
+                        <h3>Smart History</h3>
+                        <p>Optional playback history (disabled by default, fully under your control)</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-card-icon">🔒</div>
+                        <h3>Privacy First</h3>
+                        <p>All data stored locally - no external servers, no tracking</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-card-icon">🎨</div>
+                        <h3>Minimal UI</h3>
+                        <p>Glassmorphic design with smooth animations</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-section">
+                <h2>🚀 Installation</h2>
+                
+                <h3>From Chrome Web Store</h3>
+                <ol>
+                    <li>Visit the <a href="#" target="_blank">Chrome Web Store listing</a> (coming soon)</li>
+                    <li>Click "Add to Chrome"</li>
+                    <li>Confirm the installation</li>
+                    <li>You're ready! Press <kbd>Alt+M</kbd> on any page</li>
+                </ol>
+
+                <p class="note" style="margin-top: 2rem;">
+                    <strong>Note:</strong> Tube+ will be available on the Chrome Web Store soon. 
+                    In the meantime, you can follow the project on <a href="https://github.com/darklabproject24/TubePlus" target="_blank">GitHub</a>
+                </p>
+            </div>
+
+            <div class="content-section">
+                <h2>📖 How to Use</h2>
+                
+                <div class="usage-step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Open YouTube</h3>
+                        <p>Play any video on YouTube</p>
+                    </div>
+                </div>
+
+                <div class="usage-step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Activate Overlay</h3>
+                        <p>Press <kbd>Alt+M</kbd> on any page to show the mini player.
+Press <kbd>Alt+M</kbd> again or <kbd>Esc</kbd> to hide it.</p>
+                    </div>
+                </div>
+
+                <div class="usage-step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Control Playback</h3>
+                        <p>Use the buttons to control your YouTube playback from anywhere</p>
+                    </div>
+                </div>
+
+                <div class="usage-step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Optional: Enable History</h3>
+                        <p>Click the history icon and enable tracking to navigate between videos</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-section">
+                <h2>🎯 Controls Guide</h2>
+                <div class="controls-grid">
+                    <div class="control-item">
+                        <div class="control-icon">⏮️</div>
+                        <strong>Previous</strong>
+                        <p>Go to previous video (if history enabled) or restart current video</p>
+                    </div>
+                    <div class="control-item">
+                        <div class="control-icon">⏯️</div>
+                        <strong>Play/Pause</strong>
+                        <p>Toggle playback of current YouTube video</p>
+                    </div>
+                    <div class="control-item">
+                        <div class="control-icon">⏭️</div>
+                        <strong>Next</strong>
+                        <p>Skip to next video in queue or autoplay</p>
+                    </div>
+                    <div class="control-item">
+                        <div class="control-icon">📜</div>
+                        <strong>History</strong>
+                        <p>View and manage your playback history</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-section">
+                <h2>⚙️ History Feature</h2>
+                <p><strong>Disabled by default</strong> - you have full control over your data.</p>
+                
+                <h3>To Enable History:</h3>
+                <ol>
+                    <li>Click the history icon (clock) on the mini player</li>
+                    <li>Click "Enable History"</li>
+                    <li>Your recent videos will now be tracked (up to 20 videos, 10-day retention)</li>
+                </ol>
+
+                <h3>To Clear History:</h3>
+                <ol>
+                    <li>Open the history panel</li>
+                    <li>Click "Clear History"</li>
+                    <li>All stored videos will be deleted</li>
+                </ol>
+
+                <h3>To Disable History:</h3>
+                <ol>
+                    <li>Open the history panel</li>
+                    <li>Click "Disable History"</li>
+                    <li>This will also clear your existing history</li>
+                </ol>
+            </div>
+
+            <div class="content-section">
+                <h2>❓ Troubleshooting</h2>
+                
+                <div class="faq-item">
+                    <h3>Overlay not appearing?</h3>
+                    <ul>
+                        <li>Make sure you pressed <kbd>Alt+M</kbd></li>
+                        <li>Check that YouTube is open and playing a video</li>
+                        <li>Try reloading the YouTube page</li>
+                        <li>Restart your browser</li>
+                    </ul>
+                </div>
+
+                <div class="faq-item">
+                    <h3>Play button not working?</h3>
+                    <ul>
+                        <li>Make sure a video is loaded and playing in a YouTube tab</li>
+                        <li>Try clicking play on YouTube first, then use the overlay</li>
+                        <li>Check browser console for errors</li>
+                    </ul>
+                </div>
+
+                <div class="faq-item">
+                    <h3>History not tracking?</h3>
+                    <ul>
+                        <li>Make sure you enabled history tracking in the history panel</li>
+                        <li>Check that you're watching videos on YouTube (not embedded videos)</li>
+                        <li>Try disabling and re-enabling history</li>
+                    </ul>
+                </div>
+
+                <div class="faq-item">
+                    <h3>Extension stopped working after update?</h3>
+                    <ul>
+                        <li>Reload the YouTube page</li>
+                        <li>Restart your browser</li>
+                        <li>Check for extension updates in <code>chrome://extensions/</code></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="content-section">
+                <h2>🌐 Browser Compatibility</h2>
+                <div class="compatibility-grid">
+                    <div class="compat-item">
+                        <div class="compat-icon">✅</div>
+                        <strong>Chrome</strong>
+                        <p>Fully supported</p>
+                    </div>
+                    <div class="compat-item">
+                        <div class="compat-icon">✅</div>
+                        <strong>Edge</strong>
+                        <p>Fully supported</p>
+                    </div>
+                    <div class="compat-item">
+                        <div class="compat-icon">✅</div>
+                        <strong>Brave</strong>
+                        <p>Fully supported</p>
+                    </div>
+                    <div class="compat-item">
+                        <div class="compat-icon">✅</div>
+                        <strong>Opera</strong>
+                        <p>Fully supported</p>
+                    </div>
+                </div>
+                <p class="note">Any Chromium-based browser with Manifest V3 support will work!</p>
+            </div>
+
+            <div class="content-section highlight-section">
+                <h2>💡 Pro Tips</h2>
+                <ul class="pro-tips">
+                    <li><strong>Drag and position:</strong> Drag the mini player anywhere on your screen - it remembers your preference</li>
+                    <li><strong>Quick toggle:</strong> Press <kbd>Alt+M</kbd> to show/hide or <kbd>Esc</kbd> for instant close</li>
+                    <li><strong>History navigation:</strong> Enable history to go back to previously watched videos</li>
+                    <li><strong>Multiple YouTube tabs:</strong> The extension automatically detects the active/audible YouTube tab</li>
+                    <li><strong>Privacy conscious:</strong> Leave history disabled if you don't need it - less data stored</li>
+                </ul>
+            </div>
+
+            <div class="content-section">
+                <h2>🐛 Report Issues</h2>
+                <p>Found a bug or have a feature request? We'd love to hear from you!</p>
+                <a href="https://github.com/darklabproject24/TubePlus/issues" target="_blank" class="cta-button">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                    </svg>
+                    Report on GitHub
+                </a>
+            </div>
+
+            <div class="content-section">
+                <h2>🎉 Thank You!</h2>
+                <p>Thank you for using Tube+! We hope it makes your YouTube experience more enjoyable and convenient.</p>
+                <p>❤️</p>
+            </div>
+        </article>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
